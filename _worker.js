@@ -7,7 +7,7 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '1d07d723-9ffd-4be1-8a7a-64a7bd351465';
 
-const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org'];
+const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org', 'www.glassdoor.com', 'www.visa.com.hk', 'www.digitalocean.com', 'www.shopify.com', 'www.okcupid.com', 'www.udemy.com', 'shopify.com', 'www.visakorea.com', 'www.visa.co.jp', 'www.csgo.com', 'www.visa.com.tw', 'www.gov.ua', 'www.4chan.org', 'time.cloudflare.com', 'www.visa.com', 'www.visa.com.sg', 'www.gov.se', 'www.udacity.com', 'www.ipget.net', 'xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', '2cdn.anycast.eu.org', 'www.whatismyip.com', 'singapore.com', 'www.baipiao.eu.org', 'russia.com', 'malaysia.com', 'www.whoer.net', 'time.is', 'icook.tw', 'japan.com', 'icook.hk', 'ip.sb', 'www.gco.gov.qa', 'www.hugedomains.com', 'edgetunnel.anycast.eu.org', 'gamer.com.tw', 'steamdb.info', 'toy-people.com', 'silkbook.com', 'cdn.anycast.eu.org', 'shopify.com', 'cdn.chigua.tk', 'cdn.ikuan.dev', 'dnschecker.org', 'tasteatlas.com', 'pixiv.net', 'comicabc.con', 'ai1kbook.com', '8.222.221.163', '47.74.37.227', '8.210.110.29', '20.187.89.16', '146.56.149.205', '172.64.135.146'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
 let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
